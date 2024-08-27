@@ -63,5 +63,3 @@ contract Escrow {
       payable(buyer).transfer(address(this).balance); // Refund the escrowed funds to the buyer
   }
 }
-
-// 0xfb752d700d38e70ef241be52c76154797a566dc7
